@@ -52,7 +52,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'lairdptestflaskcloudrun.default'
+    environment: 'testflaskcloudrun.default'
     strategy:
       runOnce:
         deploy:
